@@ -1,0 +1,9 @@
+@import '../StyleVariables/StyleVariables.scss';
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-image: $gradient;
+  padding: 0.2em;
+  border-bottom: 1px solid $background-gray;
+}

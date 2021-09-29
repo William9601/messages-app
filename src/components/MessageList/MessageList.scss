@@ -1,0 +1,7 @@
+@import '../StyleVariables/StyleVariables.scss';
+
+.message-list-container {
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+}

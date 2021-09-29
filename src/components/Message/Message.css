@@ -1,0 +1,61 @@
+.message-container {
+  padding: 8px;
+}
+
+.messages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.message h2 {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 28px;
+  color: #292929;
+  margin-bottom: 8px;
+}
+
+.message p {
+  font-family: roboto;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.message .edit-button {
+  display: none;
+}
+
+.message:hover .edit-button {
+  display: block;
+}
+
+.profile-pic {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 48px;
+  width: 48px;
+  background-color: #8abfe2;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.message-date {
+  font-family: mulish;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 20px;
+  color: #8f9194;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 8px;
+}
+/*# sourceMappingURL=Message.css.map */

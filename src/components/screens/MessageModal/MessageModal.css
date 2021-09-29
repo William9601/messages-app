@@ -1,0 +1,73 @@
+.message-modal-container {
+  height: 90vh;
+  width: 60vw;
+  background-color: #ffffff;
+  margin-top: 16px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.message-modal-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.message-modal-header {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  background-color: #f2f2f2;
+  padding: 16px 0 16px 8px;
+  border-radius: 2px;
+}
+
+.message-modal-header h3 {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 28px;
+  color: #292929;
+  margin-bottom: 8px;
+}
+
+.message-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #f2f2f2;
+}
+
+.modal-send-button {
+  border: none;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+  background-color: #35c99d;
+  color: white;
+  font-weight: 900;
+}
+
+.modal-send-button:hover {
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  width: 90%;
+}
+
+.input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=MessageModal.css.map */

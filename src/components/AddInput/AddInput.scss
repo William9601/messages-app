@@ -1,0 +1,27 @@
+.message-input {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid $background-gray;
+}
+
+.modal-send-button {
+  border: none;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(53, 201, 157);
+  color: white;
+  font-weight: 900;
+}
+
+.modal-send-button:hover {
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  width: 90%;
+}
+
+.input:focus {
+  outline: none;
+}
