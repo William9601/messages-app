@@ -29,9 +29,6 @@ const MessageModal = ({ userName }) => {
     });
   };
 
-  const fiveMins = 300000;
-  const dateNow = Date.now();
-
   return (
     <div className="message-modal-container">
       <section className="message-modal-header">

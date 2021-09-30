@@ -1,5 +1,7 @@
 ## Available Scripts
 
+Before starting the project run: npm i
+
 In the project directory, you can run:
 
 npm run json-server

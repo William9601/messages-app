@@ -7,24 +7,6 @@
       "userId": 123,
       "parentId": null,
       "id": 1
-    },
-    {
-      "userName": "Olive Larson",
-      "content": "Hello!",
-      "timestamp": 1632919359331,
-      "id": 2
-    },
-    {
-      "userName": "Olive Larson",
-      "content": "Gooday to you",
-      "timestamp": 1632920276876,
-      "id": 3
-    },
-    {
-      "userName": "Olive Larson",
-      "content": "Yes hi",
-      "timestamp": 1632920898116,
-      "id": 4
     }
   ]
 }

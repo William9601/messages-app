@@ -1,4 +1,4 @@
-import { editMessageApi } from '../../services/apiServices';
+import { editMessageApi, addMessageApi } from '../../services/apiServices';
 
 const AddInput = ({
   content,
@@ -11,13 +11,7 @@ const AddInput = ({
 }) => {
   const addMessage = (e) => {
     e.preventDefault();
-    const timestamp = Date.now();
-    const message = { userName, content, timestamp };
-    fetch('http://localhost:3000/messages', {
-      method: 'POST',
-      headers: { 'Content-type': 'application/json' },
-      body: JSON.stringify(message),
-    }).then(() => {
+    addMessageApi(userName, content).then(() => {
       fetchMessages();
     });
     setContent('');
@@ -45,6 +39,7 @@ const AddInput = ({
         value={content}
         onChange={(e) => setContent(e.target.value)}
         placeholder="Start typing your message here..."
+        data-testid="MessageInput"
       />
       <button
         className="modal-send-button"
